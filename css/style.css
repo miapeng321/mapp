@@ -1,0 +1,209 @@
+@import url("reset.css");
+.w1006 {
+  width: 1006px;
+  margin: 0 auto;
+}
+.header-auter {
+  width: 100%;
+  height: 29px;
+  background: #f3f3f3;
+}
+.header-auter .header {
+  height: 29px;
+  background: none;
+  width: 1006px;
+  margin: 0 auto;
+}
+.header-auter .header li {
+  float: left;
+  line-height: 29px;
+  padding: 0 2px;
+}
+.header-auter .header ul {
+  float: left;
+}
+.header-auter .header p {
+  float: right;
+  padding-right: 3px;
+  line-height: 29px;
+}
+.header-auter .header p img {
+  padding-top: 3px;
+}
+.header1 {
+  height: 74px;
+  background: none;
+  width: 1006px;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+.header1 .header1-left {
+  width: 181px;
+  height: 74px;
+  background: none;
+  float: left;
+}
+.header1 .header1-right {
+  width: 825px;
+  height: 74px;
+  background: none;
+  float: left;
+}
+.header1 .header1-right li {
+  float: left;
+  padding-top: 8px;
+  padding-left: 2px;
+}
+.nav {
+  height: 40px;
+  background: #080808;
+  width: 1006px;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+.nav li {
+  float: left;
+  line-height: 40px;
+  padding: 0 8px;
+}
+.nav li a {
+  color: white;
+}
+.main1 {
+  height: 716px;
+  background: none;
+  width: 1006px;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+.main1 .main1-left {
+  width: 703px;
+  height: 716px;
+  background: none;
+  float: left;
+}
+.main1 .main1-left .main1-left-up {
+  width: 703px;
+  height: 110px;
+  background: none;
+  float: left;
+}
+.main1 .main1-left .main1-left-down {
+  width: 703px;
+  height: 599px;
+  background: none;
+  float: left;
+  margin-top: 7px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-l {
+  width: 325px;
+  height: 599px;
+  background: none;
+  float: left;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-l p {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 4px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-l h4 {
+  font-size: 15px;
+  margin-top: 13px;
+  background-color: none;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-l dl {
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-l dl dd {
+  text-align: center;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r {
+  width: 378px;
+  height: 599px;
+  background: none;
+  float: left;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h2 {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 8px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h3 {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 8px;
+  color: blue;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r p {
+  padding-top: 5px;
+  padding-left: 8px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h4 {
+  font-size: 16px;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r li {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r li a {
+  color: red;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h5 {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h5 a {
+  float: right;
+  color: red;
+  font-size: 12px;
+}
+.main1 .main1-left .main1-left-down .main1-left-down-r h6 {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.main1 .main1-right {
+  width: 303px;
+  height: 716px;
+  background: none;
+  float: left;
+}
+.main1 .main1-right h2 {
+  font-size: 15px;
+  padding-top: 6px;
+  padding-left: 9px;
+}
+.main1 .main1-right li {
+  padding-left: 6px;
+  padding-top: 4px;
+}
+.main1 .main1-right li span {
+  color: white;
+  height: 10px;
+  border: 1px #666666 solid;
+  background-color: orange;
+}
+.main1 .main1-right h3 {
+  padding-top: 14px;
+}
+.main1 .main1-right h4 {
+  font-size: 15px;
+  padding-top: 6px;
+  padding-left: 9px;
+}
+.main1 .main1-right p {
+  font-size: 14px;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+.main2 {
+  height: 100px;
+  background: none;
+  width: 1006px;
+  margin: 0 auto;
+  margin-top: 4px;
+}

@@ -1,0 +1,211 @@
+@import url("reset.css");
+
+//封装宽 高背景
+
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+//封装浮动
+.f(@f:left){
+    float: @f;
+}
+
+//页面居中
+.w1006{
+    width: 1006px;
+    margin: 0 auto;
+}
+
+.header-auter{
+    .whb(100%,29px,#f3f3f3);
+    .header{
+       .whb(1006px,29px,none); 
+       .w1006;
+       li{
+           .f;
+           line-height: 29px;
+           padding: 0 2px;
+       }
+       ul{
+           .f;
+       }
+       p{
+           .f(right);
+           padding-right: 3px;
+           line-height: 29px;
+           img{
+               padding-top: 3px;
+           }
+       }
+
+    }
+    
+}
+
+.header1{
+       .whb(1006px,74px,none); 
+       .w1006;
+       margin-top: 4px;
+       .header1-left{
+           .whb(181px,74px,none);
+           .f;
+       }
+       .header1-right{
+           .whb(825px,74px,none);
+           .f;
+           li{
+               .f;
+               padding-top: 8px;
+               padding-left: 2px;
+           }
+       }
+       
+       
+       
+}
+
+.nav{
+    .whb(1006px,40px,#080808); 
+       .w1006;
+       margin-top: 2px;
+       li{
+           .f;
+           line-height: 40px;
+           padding: 0 8px;
+           a{
+               color: white;
+           }
+       }
+}
+.main1{
+    .whb(1006px,716px,none); 
+     .w1006;
+     margin-top: 3px;
+    .main1-left{
+       .whb(703px,716px,none); 
+       .f;
+       .main1-left-up{
+           .whb(703px,110px,none);
+           .f;
+       }
+       .main1-left-down{
+           .whb(703px,599px,none);
+           .f;
+           margin-top: 7px;
+           .main1-left-down-l{
+           .whb(325px,599px,none);
+           .f;
+           p{
+               font-size: 15px;
+               padding-top: 5px;
+               padding-left: 4px;
+           }
+           h4{
+               font-size: 15px;
+               margin-top: 13px;
+               background-color: none;
+           }
+           dl{
+               .f;
+               padding-top: 30px;
+               padding-left: 10px;
+               dd{
+                   text-align: center;
+               }
+           }
+           }
+           .main1-left-down-r{
+           .whb(378px,599px,none);
+           .f;
+           h2{
+               font-size: 14px;
+               padding-top: 10px;
+               padding-left: 8px;
+           }
+           h3{
+               font-size: 14px;
+               padding-top: 10px;
+               padding-left: 8px;
+               color: blue;
+           }
+           p{
+               padding-top: 5px;
+               padding-left: 8px;
+           }
+           h4{
+               font-size: 16px;
+               padding-top: 6px;
+               padding-left: 5px;
+           }
+           li{
+              font-size: 14px;
+              padding-left: 10px;
+              padding-top: 10px;
+              a{
+                  color: red;
+              }
+           }
+           h5{
+               font-size: 16px;
+               padding-top: 10px;
+               a{
+                   .f(right);
+                   color: red;
+                   font-size: 12px;
+               }
+           }
+           h6{
+               font-size: 14px;
+               padding-left: 15px;
+           }
+
+       }
+           
+           
+           
+       }
+       
+     }
+     .main1-right{
+       .whb(303px,716px,none); 
+       .f;
+       h2{
+           font-size: 15px;
+           padding-top: 6px;
+           padding-left: 9px;
+       }
+       li{
+           padding-left: 6px;
+           padding-top: 4px;
+           span{
+               color: white;
+               height: 10px;
+               border: 1px #666666 solid;
+               background-color: orange;
+               
+           }
+       }
+       h3{
+           padding-top: 14px;
+       }
+       h4{
+           font-size: 15px;
+           padding-top: 6px;
+           padding-left: 9px;
+       }
+       p{
+           font-size: 14px;
+           padding-top: 8px;
+           padding-left: 10px;
+       }
+       
+     }
+}
+.main2{
+    .whb(1006px,100px,none);
+    .w1006;
+    margin-top: 4px;
+}
